@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create this layout</title>
+
+    <style>
+        .row {
+            width: 100%;
+        }
+        .column {
+            height: 400px;
+            float: left;
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="overflow-y:auto;">
+        <div class="row" style="background-color: pink;height: 70px;margin:0">
+            <h2 style="padding:5px;margin: 0%;">
+                Header (70pt)
+            </h2>
+        </div>
+        <div class="row" style="display: inline-flex;">
+            <div class="column" style="width:fit-content;background-color: thistle;">
+                <div class="row">LSide</div>
+                <div class="row">(auto)</div>
+            </div>
+            <div class="column" style="width:auto;background-color: lightgoldenrodyellow;flex:1">
+                <h3 style="margin:0">Content (expands)</h3>
+            </div>
+            <div class="column" style="width:100px;background-color: powderblue;">
+                RSide (100pt)
+            </div>
+        </div>
+        <div class="row" style="background-color:mediumpurple;">
+            <footer>
+                <h2 style="margin:0;padding: 5px;">Footer (auto)</h2>
+            </footer>
+        </div>
+    </div>
+    
+
+</body>
+</html>

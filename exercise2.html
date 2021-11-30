@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make this form</title>
+    <style>
+        body {
+            background-color: rgb(240, 242, 243);
+        }
+
+        input, textarea {
+            width: 100vw;
+            margin-top: 8px;
+            margin-bottom: 13px;
+            border: none;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        h2,h3 {
+            font-family: Arial, Helvetica, sans-serif;   
+            font-weight: 100;   
+            text-align: center; 
+        }
+
+        h2 {
+            padding-top: 50px;
+            line-height: 40px;
+            margin:0;
+            padding-bottom: 0;
+        }
+        h3 {
+            margin-top:0;
+            color:grey 
+        }
+
+        button {
+            display: inline-block;
+            background-color: rgb(100, 206, 100);
+            color:rgb(255, 255, 255);
+            border:none;
+            border-radius: 30px;
+            padding: 20px;
+            margin: 0;
+            position: absolute;
+            left: 50%;
+            -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+        }
+
+
+    </style>
+</head>
+<body>
+    <container>
+        <h2>CONTACT US</h2>
+        <h3>We are very responsive! Feel free to send us a message.</h3>
+        <from>
+           <label for="name">Name:</label><br>
+           <input type="text" id="name" name="name" placeholder=" Alice Lee"><br>
+           <label for="email">Email:</label><br>
+           <input type="email" id="email" name="email" placeholder=" alice-lee@gmail.com"><br>
+           <label for="phone">Phone Number:</label><br>
+           <input type="tel" id="phone" name="phone" placeholder=" +1-647-998-6453"><br>
+           <label for="message">Message:</label><br>
+           <textarea id="message" name="message" placeholder=" I would like to check out the blinds!."></textarea><br>
+           <button type="button">SEND MESSAGE</button>
+        </from>
+    </container>
+</body>
+</html>
