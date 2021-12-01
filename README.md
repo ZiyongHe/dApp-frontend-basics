@@ -1,4 +1,4 @@
-## web-dev-basic-1
+## Frontend-basics
 
 Exercise 1 and Exercise 2 are recreations of following pictures:
 
